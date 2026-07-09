@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(135deg, rgb(21, 33, 192), rgb(5, 183, 189));
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Login_Box{
+    width: 250px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 
+        0 8px 32px rgba(0,0,0,0.25),
+        inset 0 0 20px rgba(255,255,255,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Login_Box input{
+    width: 180px;
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.2);
+    color:white;
+    outline:none;
+    backdrop-filter: blur(5px);
+}
+
+
+.Login_Box input::placeholder{
+    color: rgba(255,255,255,0.8);
+}
+
+
+.Login_Box button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    background: rgba(255,255,255,0.25);
+    color:white;
+    cursor:pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+
+.Login_Box button:hover{
+    background: rgba(255,255,255,0.45);
+    transform: scale(1.05);
+}
+
+.Login_Box a{
+    border: 5px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Login_Box a:hover{
+    background: rgba(255,255,255,0.35);
+    transform: scale(1.05);
+}
