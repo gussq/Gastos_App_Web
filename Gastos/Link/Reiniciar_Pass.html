@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reiniciar Contraseña</title>
+    <link rel="stylesheet" href="../../styles/Reiniciar_Pass.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="../../js/supabase.js"></script>
+    <script type="module" src="../../js/ReiniciarPass.js"></script>
+
+</head>
+<body>
+    <div class="Contraseña_Box">
+        <a href="../../login.html">Cancelar</a>
+        <h1> Formatear Contraseña </h1>
+        <div class="Datos_Usuario_Box">
+            <p> Usuario: <span id="usuairo"></p>
+            <p> Correo: <span id="email"></span></p>
+        </div>
+        
+        <div class="Fila">
+            <div class="Columna">
+                <p> Contraseña Nueva </p>
+                <input type="password" name="password_nueva" id="password_nueva">
+            </div>
+            <div class="Columna">
+                <p> Confirmar Contraseña Nueva </p>
+                <input type="password" name="confirmar_password_nueva" id="confirmar_password_nueva">
+            </div>
+        </div>
+
+        <br>
+        <button id="EstablecerNuevaPassword"> Actualizar Contraseña </button>
+
+    </div>
+</body>
+</html>

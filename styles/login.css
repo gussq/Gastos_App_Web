@@ -1,18 +1,25 @@
 body{
-    background: linear-gradient(135deg, rgb(21, 33, 192), rgb(5, 183, 189));
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #1e3cfa 0%,
+        #2563eb 35%,
+        #06b6d4 70%,
+        #14b8a6 100%
+    );
+    background-attachment: fixed;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    height: 90vh;
+    font-family: "Segoe UI", Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 .Login_Box{
-    width: 250px;
+    width: 300px;
     height: 350px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
@@ -64,9 +71,13 @@ body{
     transform: scale(1.05);
 }
 
+.Login_Links{
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .Login_Box a{
-    border: 5px solid rgba(255,255,255,0.15);
-    border-radius: 15px;
     padding: 5px;
     color: white;
     text-decoration: none;
@@ -76,4 +87,5 @@ body{
 .Login_Box a:hover{
     background: rgba(255,255,255,0.35);
     transform: scale(1.05);
+    border-radius: 10px;
 }
