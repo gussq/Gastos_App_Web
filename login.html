@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gastos Login</title>
     <link rel="stylesheet" href="styles/login.css">
-    <script type="module" src="login.js"></script>
+    <script type="module" src="js/login.js"></script>
+
 </head>
 <body>
     <div class="Login_Box">
         <p> Usuario </p>
-        <input type="text" name="usuario" id="usuario">
+        <input type="text" name="usuario" id="usuario" placeholder="Usuario">
 
         <p> Contraseña </p>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" placeholder="Contraseña">
 
         <br><br>
-        <a href="Gastos/Reiniciar_Pass.html">Formatear contraseña </a>
-
+        <div class="Login_Links">
+            <a href="Gastos/Link/Crear_Usuario.html">Crear Usuario</a> <br><br>
+            <a href="Gastos/Link/Solicitar_Reiniciar_Pass.html">¿Olvido su contraseña? </a>
+        </div>
         <br><br>
         <button onclick="FunctionIngresar()">Iniciar sesión</button>
 

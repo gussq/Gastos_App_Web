@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse </title>
+    <link rel="stylesheet" href="../../styles/Crear_Usuario.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="../../js/supabase.js"></script>
+    <script type="module" src="../../js/CrearUsuario.js"></script>
+</head>
+<body>
+<div class="Crear_Usuario_Box">
+
+    <a href="../../login.html"> Atras </a>
+    <h1>Crear Usuario</h1>
+
+    <div class="Fila">
+        <div class="Campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre">
+        </div>
+        <div class="Campo">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Apellido">
+        </div>
+    </div>
+
+    <div class="Campo">
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" placeholder="correo@ejemplo.com">
+    </div>
+    <div class="Campo">
+        <br>
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" placeholder="Usuario">
+    </div>
+    <div class="Fila">
+        <div class="Campo">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="********">
+        </div>
+        <div class="Campo">
+            <label for="confirmar_password">Confirmar</label>
+            <input type="password" id="confirmar_password" placeholder="********">
+        </div>
+    </div>
+
+    <button id="CrearUsuario"> Crear Usuario </button>
+
+</div>
+</body>
+</html>
