@@ -34,6 +34,7 @@ async function CrearUsuario()
                 id_usuario: data.user.id,
                 nombre_usuario: nombre,
                 apellido_usuario: apellido,
+                email: email,
                 usuario: usuario,
             }
         ]);
@@ -44,7 +45,7 @@ async function CrearUsuario()
     }
 
     alert("Usuario creado con éxito. Revisa tu correo para confirmar la cuenta.");
-    window.location.href = "../Login.html"
+    window.location.href = "../../Login.html"
 }
 
 document.getElementById("CrearUsuario").addEventListener("click", CrearUsuario);
