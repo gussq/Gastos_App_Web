@@ -45,7 +45,7 @@ async function CrearUsuario()
     }
 
     alert("Usuario creado con éxito. Revisa tu correo para confirmar la cuenta.");
-    window.location.href = "../../Login.html"
+    window.location.href = "../../index.html"
 }
 
 document.getElementById("CrearUsuario").addEventListener("click", CrearUsuario);
