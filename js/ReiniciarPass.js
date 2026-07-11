@@ -9,7 +9,7 @@ async function SolicitarResetPassword() {
     }
 
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: "http://gussqporyectos.online/Gastos/Link/Reiniciar_Pass.html"
+        redirectTo: "http://gussqproyectos.online/Gastos/Link/Reiniciar_Pass.html"
     });
 
     if (error) {
