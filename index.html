@@ -10,22 +10,36 @@
 
 </head>
 <body>
-    <div class="Login_Box">
-        <p> Usuario </p>
-        <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+    <div class="Login_Content">
+        <div class="Login_Box">
+            <div class="Login_Titulo">
+                <h1> Inicio de Sesion </h1>
+            </div>
+            <div class="Login_Datos">
+                <p> Usuario </p>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+            </div>
 
-        <p> Contraseña </p>
-        <input type="password" name="password" id="password" placeholder="Contraseña">
+            <div class="Login_Datos">
+                <p> Contraseña </p>
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+            </div>
 
-        <br><br>
-        <div class="Login_Links">
-            <a href="Gastos/Link/Crear_Usuario.html">Crear Usuario</a> <br><br>
-            <a href="Gastos/Link/Solicitar_Reiniciar_Pass.html">¿Olvido su contraseña? </a>
+            <br>
+            <div class="Login_Links">
+                <a href="Gastos/Link/Solicitar_Reiniciar_Pass.html">¿Olvido su contraseña? </a>
+            </div>
+            <br><br>
+            <div class="Login_IniciarSesion">
+                <button id="IniciarSesion">INICIAR SESION</button>
+                <button onclick="window.location.href='Gastos/Link/Crear_Usuario.html'"> CREAR USUARIO </button>
+            </div>
+            <br> <br>
         </div>
-        <br><br>
-        <button id="IniciarSesion">Iniciar sesión</button>
-        <br> <br>
-
     </div>
+
+    <footer>
+        <p> CONTACTO </p>
+    </footer>
 </body>
 </html>
