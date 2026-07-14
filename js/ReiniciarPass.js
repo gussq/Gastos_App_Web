@@ -56,6 +56,7 @@ async function MostrarDatosUsuario(){
             .eq("id_usuario", user.id)
             .single();
 
+            
     if (error) {
         console.error("Error al traer datos:", error.message);
         return;

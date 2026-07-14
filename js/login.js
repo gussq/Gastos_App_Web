@@ -43,7 +43,7 @@ async function IniciarSesion() {
         return;
     }
     
-    alert("Inicio de Sesion correcto, redirigiendo a la pagina principal");
+    alert(`Inicio de Sesion correcto: ${usuario}, redirigiendo a la pagina principal`);
     window.location.href = "Gastos/Menu_Principal.html"
 
 }
