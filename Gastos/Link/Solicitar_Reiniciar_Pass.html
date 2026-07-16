@@ -10,18 +10,28 @@
     <script type="module" src="../../js/ReiniciarPass.js"></script>
 </head>
 <body>
-<div class="Formatear_Pass_Box">
 
-    <a href="../../index.html"> Atras </a>
-    <h1> Cambiar Contraseña </h1>
+<div class="Formatear_Pass_Content">
+    <div class="Formatear_Pass_Box">
+        <div class="Formatear_Pass_Titulo">
+            <a href="../../index.html"> Atras </a>
+            <h1> Cambiar Contraseña </h1>
+        </div>
 
-    <div class="Campo">
-        <p> Email </p>
-        <input type="text" name="email" id="email">
+        <div class="Formatear_Pass_Datos">
+            <p> Correo Electronico: </p>
+            <input type="text" name="email" id="email">
+        </div>
+            <br>
+        <div class="Formatear_Pass_EnvPeticion">
+            <button id="SolicitarResetPassword"> Enviar Peticion </button>
+        </div>
     </div>
-        
-    <button id="SolicitarResetPassword"> Enviar Peticion </button>
-
 </div>
+
+<footer>
+    <p> CONTACTO </p>
+</footer>
+
 </body>
 </html>

@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: white;
+    background-attachment: fixed;
+    color: black;
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.Opcion_Box_Top{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.Opcion_Box_Top button{
+    margin-top: 10px;
+    height: 25px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.Opcion_Box_Top button:hover{
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+.Opcion_Box_Bottom{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
